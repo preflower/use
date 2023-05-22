@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "ted",
+    "ted/typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
