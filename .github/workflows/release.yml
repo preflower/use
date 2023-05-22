@@ -5,6 +5,7 @@ on:
       - master
     paths:
       - '.changeset/**'
+    workflow_dispatch:
 env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
@@ -20,7 +21,7 @@ jobs:
       - name: Setup node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16
       - name: Install pnpm
         run: npm i pnpm@latest -g
       - name: Setup pnpm config
