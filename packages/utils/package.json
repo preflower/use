@@ -21,6 +21,10 @@
     "url": "https://github.com/preflower/use/issues"
   },
   "homepage": "https://github.com/preflower/use#readme",
+  "files": [
+    "lib/",
+    "esm/"
+  ],
   "publishConfig": {
     "access": "public"
   }

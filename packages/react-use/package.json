@@ -48,5 +48,9 @@
   },
   "peerDependencies": {
     "react": "*"
-  }
+  },
+  "files": [
+    "lib/",
+    "esm/"
+  ]
 }
