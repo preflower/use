@@ -5,7 +5,7 @@ on:
       - master
     paths:
       - '.changeset/**'
-    workflow_dispatch:
+  workflow_dispatch:
 env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
