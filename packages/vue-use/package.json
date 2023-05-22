@@ -1,6 +1,6 @@
 {
   "name": "@preflower/vue-use",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A vue use library for self",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -25,13 +25,13 @@
     "access": "public"
   },
   "peerDependencies": {
-    "vue": "^3.3.4"
+    "vue": "*"
   },
   "dependencies": {
     "@preflower/utils": "workspace:^"
   },
   "devDependencies": {
-    "vue": "*"
+    "vue": "^3.3.4"
   },
   "files": [
     "lib/",
