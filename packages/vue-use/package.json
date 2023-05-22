@@ -1,6 +1,6 @@
 {
   "name": "@preflower/vue-use",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue use library for self",
   "main": "lib/index.js",
   "module": "esm/index.js",
