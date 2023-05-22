@@ -7,3 +7,7 @@ export * from './device'
 export * from './array'
 
 export * from './screen'
+
+export * from './object'
+
+export * from './define-map'
