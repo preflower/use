@@ -30,11 +30,11 @@ importers:
         specifier: ^13.2.2
         version: 13.2.2
       stylelint:
-        specifier: ^15.7.0
-        version: 15.7.0
+        specifier: ^15.8.0
+        version: 15.8.0
       stylelint-config-sass-guidelines:
         specifier: ^10.0.0
-        version: 10.0.0(postcss@8.4.24)(stylelint@15.7.0)
+        version: 10.0.0(postcss@8.4.24)(stylelint@15.8.0)
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -3858,7 +3858,7 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
 
-  /stylelint-config-sass-guidelines@10.0.0(postcss@8.4.24)(stylelint@15.7.0):
+  /stylelint-config-sass-guidelines@10.0.0(postcss@8.4.24)(stylelint@15.8.0):
     resolution: {integrity: sha512-+Rr2Dd4b72CWA4qoj1Kk+y449nP/WJsrD0nzQAWkmPPIuyVcy2GMIcfNr0Z8JJOLjRvtlkKxa49FCNXMePBikQ==}
     engines: {node: ^14.13.1 || >=16.13.0 || >=18.0.0}
     peerDependencies:
@@ -3867,11 +3867,11 @@ packages:
     dependencies:
       postcss: 8.4.24
       postcss-scss: 4.0.6(postcss@8.4.24)
-      stylelint: 15.7.0
-      stylelint-scss: 4.7.0(stylelint@15.7.0)
+      stylelint: 15.8.0
+      stylelint-scss: 4.7.0(stylelint@15.8.0)
     dev: true
 
-  /stylelint-scss@4.7.0(stylelint@15.7.0):
+  /stylelint-scss@4.7.0(stylelint@15.8.0):
     resolution: {integrity: sha512-TSUgIeS0H3jqDZnby1UO1Qv3poi1N8wUYIJY6D1tuUq2MN3lwp/rITVo0wD+1SWTmRm0tNmGO0b7nKInnqF6Hg==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
@@ -3880,11 +3880,11 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
-      stylelint: 15.7.0
+      stylelint: 15.8.0
     dev: true
 
-  /stylelint@15.7.0:
-    resolution: {integrity: sha512-fQRwHwWuZsDn4ENyE9AsKkOkV9WlD2CmYiVDbdZPdS3iZh0ceypOn1EuwTNuZ8xTrHF+jVeIEzLtFFSlD/nJHg==}
+  /stylelint@15.8.0:
+    resolution: {integrity: sha512-x9qBk84F3MEjMEUNCE7MtWmfj9G9y5XzJ0cpQeJdy2l/IoqjC8Ih0N0ytmOTnXE4Yv0J7I1cmVRQUVNSPCxTsA==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3928,7 +3928,6 @@ packages:
       supports-hyperlinks: 3.0.0
       svg-tags: 1.0.0
       table: 6.8.1
-      v8-compile-cache: 2.3.0
       write-file-atomic: 5.0.1
     transitivePeerDependencies:
       - supports-color
@@ -4178,10 +4177,6 @@ packages:
 
   /v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
-    dev: true
-
-  /v8-compile-cache@2.3.0:
-    resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
   /validate-npm-package-license@3.0.4:
