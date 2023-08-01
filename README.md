@@ -1,7 +1,7 @@
 # @preflower/use-monorepo
-A monorepo for self that save my work accumulation
+A monorepo for self that store my work accumulation
 
-## Plugins
+## Packages
 
 | Packages | Version |
 | -------- | ------- |
