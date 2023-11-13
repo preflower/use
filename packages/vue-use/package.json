@@ -31,7 +31,7 @@
     "@preflower/utils": "workspace:^"
   },
   "devDependencies": {
-    "vue": "^3.3.7"
+    "vue": "^3.3.8"
   },
   "files": [
     "lib/",
