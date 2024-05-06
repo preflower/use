@@ -1,5 +1,5 @@
 ---
-"@preflower/vue-use": major
+"@preflower/vue-use": patch
 ---
 
 Fix CI/CD not work error
