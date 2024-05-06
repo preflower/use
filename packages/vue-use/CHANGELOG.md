@@ -1,5 +1,11 @@
 # @preflower/vue-use
 
+## 1.1.0
+
+### Minor Changes
+
+- cac9102: Add ComponentProps typescript util function
+
 ## 1.0.1
 
 ### Patch Changes
