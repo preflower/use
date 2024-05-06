@@ -1,5 +1,11 @@
 # @preflower/vue-use
 
+## 1.1.1
+
+### Patch Changes
+
+- f2daf5e: Fix old config not compatiable with latest tsc version error
+
 ## 1.1.0
 
 ### Minor Changes
