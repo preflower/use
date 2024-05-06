@@ -1,5 +1,11 @@
 # @preflower/vue-use
 
+## 2.0.0
+
+### Major Changes
+
+- 1863a47: Fix CI/CD not work error
+
 ## 1.1.1
 
 ### Patch Changes
