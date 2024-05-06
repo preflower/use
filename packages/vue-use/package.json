@@ -2,13 +2,14 @@
   "name": "@preflower/vue-use",
   "version": "1.1.0",
   "description": "A vue use library for self",
+  "type": "module",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build:cjs": "tsc",
-    "build:es": "tsc -m esNext --outDir esm",
+    "build:cjs": "tsc --outDir lib",
+    "build:es": "tsc -m esnext --moduleResolution bundler --outDir esm",
     "build": "pnpm build:cjs && pnpm build:es",
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
     "ci:publish": "pnpm build && pnpm changeset publish"
