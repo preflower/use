@@ -6,6 +6,7 @@
   "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
   "license": "ISC",
   "scripts": {
+    "prepare": "husky install",
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=!@preflower/react-use -r run build",
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
