@@ -8,7 +8,7 @@
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build:cjs": "tsc --outDir lib",
+    "build:cjs": "tsc",
     "build:es": "tsc -m esnext --moduleResolution bundler --outDir esm",
     "build": "pnpm build:cjs && pnpm build:es",
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
