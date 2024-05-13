@@ -54,7 +54,7 @@ importers:
         version: link:../utils
     devDependencies:
       vue:
-        specifier: ^3.4.26
+        specifier: ^3.4.27
         version: 3.4.27(typescript@5.4.5)
 
 packages:
