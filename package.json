@@ -20,7 +20,7 @@
     "eslint-config-ted": "^3.0.2",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
-    "stylelint": "^16.7.0",
+    "stylelint": "^16.8.2",
     "stylelint-config-sass-guidelines": "^11.1.0",
     "typescript": "^5.5.4"
   },
