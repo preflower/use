@@ -3,6 +3,6 @@
  * @param arr 源数组
  * @returns {any}
  */
-export function getArrayFirst<T extends unknown> (arr: T): T extends any[] ? (T extends [infer F, ...any] ? F : undefined) : T {
+export function getArrayFirst<T> (arr: T): T extends unknown[] ? T[number] | undefined : T {
   return Array.isArray(arr) ? arr[0] : arr
 }

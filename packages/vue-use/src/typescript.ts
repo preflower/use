@@ -1,5 +1,5 @@
 import type { AllowedComponentProps, Component, VNodeProps } from 'vue'
 
-export type ComponentProps<C extends Component> = C extends new (...args: any) => any
+export type ComponentProps<C extends Component> = C extends new (...args: any[]) => unknown
   ? Omit<InstanceType<C>['$props'], keyof VNodeProps | keyof AllowedComponentProps>
   : never

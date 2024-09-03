@@ -1,17 +1,19 @@
+import { AnyFunction } from './typescript'
+
 /**
  * 函数只会触发一次, 后面都直接返回该结果
  * @param action 执行函数
  * @returns 函数返回值
  */
-export const idempotent = <T extends (...args: any[]) => any>(action: T): (...args: any) => ReturnType<T> => {
+export const idempotent = <T extends AnyFunction>(action: T): (...args: Parameters<T>) => ReturnType<T> => {
   let called = false
   let result: ReturnType<T>
 
-  return (...args: any) => {
+  return (...args: Parameters<T>) => {
     if (called) {
       return result
     } else {
-      result = action(...args)
+      result = action(...args) as ReturnType<T>
       called = true
 
       return result

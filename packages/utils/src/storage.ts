@@ -9,7 +9,7 @@ class EasyStorage {
     }
   }
 
-  get<T = any>(key: string): T | null {
+  get<T> (key: string): T | null {
     const value = this.storage.getItem(key)
 
     if (typeof value !== 'string') {
@@ -18,14 +18,14 @@ class EasyStorage {
 
     try {
       return JSON.parse(value)
-    } catch (e) {
+    } catch {
       return value as T
     }
   }
 
-  set (key: string, value: any) {
-    value = JSON.stringify(value)
-    this.storage.setItem(key, value)
+  set<T> (key: string, value: T) {
+    const str = JSON.stringify(value)
+    this.storage.setItem(key, str)
   }
 
   remove (key: string) {

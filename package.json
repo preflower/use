@@ -2,9 +2,18 @@
   "name": "@preflower/use-monorepo",
   "version": "1.0.0",
   "description": "A monorepo for self that save my work accumulation",
+  "type": "module",
   "keywords": [],
-  "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
   "license": "ISC",
+  "homepage": "https://github.com/preflower/use#readme",
+  "bugs": {
+    "url": "https://github.com/preflower/use/issues"
+  },
+  "repository": "https://github.com/preflower/use",
+  "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm",
@@ -16,12 +25,10 @@
     "@changesets/cli": "^2.27.7",
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
-    "eslint": "^8.57.0",
-    "eslint-config-ted": "^3.0.2",
+    "eslint": "^9.9.1",
+    "eslint-config-ted": "^4.0.3",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
-    "stylelint": "^16.8.2",
-    "stylelint-config-sass-guidelines": "^11.1.0",
     "typescript": "^5.5.4"
   },
   "commitlint": {
@@ -32,23 +39,6 @@
   "lint-staged": {
     "*.{js,ts,tsx,vue}": [
       "eslint --fix"
-    ],
-    "*.{css,scss,vue}": [
-      "stylelint --fix"
     ]
-  },
-  "stylelint": {
-    "extends": "stylelint-config-sass-guidelines",
-    "rules": {
-      "selector-max-id": null
-    }
-  },
-  "repository": "https://github.com/preflower/use",
-  "bugs": {
-    "url": "https://github.com/preflower/use/issues"
-  },
-  "homepage": "https://github.com/preflower/use#readme",
-  "publishConfig": {
-    "access": "public"
   }
 }

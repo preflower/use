@@ -2,10 +2,25 @@
   "name": "@preflower/react-use",
   "version": "1.0.0",
   "description": "A vue hooks library for self",
+  "keywords": [],
+  "license": "ISC",
+  "homepage": "https://github.com/preflower/use#readme",
+  "bugs": {
+    "url": "https://github.com/preflower/use/issues"
+  },
+  "repository": "https://github.com/preflower/use",
+  "author": "",
+  "files": [
+    "esm/",
+    "lib/"
+  ],
   "main": "lib/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build:cjs": "tsc",
     "build:es": "tsc -m esNext --moduleResolution bundler --outDir esm",
@@ -13,13 +28,16 @@
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
     "ci:publish": "pnpm build && pnpm changeset publish"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "react": "^18.3.1"
   },
   "lint-staged": {
     "*.{js,ts,tsx,vue}": [
@@ -34,23 +52,5 @@
     "rules": {
       "selector-max-id": null
     }
-  },
-  "repository": "https://github.com/preflower/use",
-  "bugs": {
-    "url": "https://github.com/preflower/use/issues"
-  },
-  "homepage": "https://github.com/preflower/use#readme",
-  "publishConfig": {
-    "access": "public"
-  },
-  "devDependencies": {
-    "react": "^18.3.1"
-  },
-  "peerDependencies": {
-    "react": "*"
-  },
-  "files": [
-    "lib/",
-    "esm/"
-  ]
+  }
 }

@@ -5,7 +5,7 @@
  * @param fmt 日期格式
  * @returns 格式化后的时间
  */
-export function format (time: any, fmt = 'YYYY MM dd HH:mm:ss') {
+export function format (time: string | number | Date, fmt = 'YYYY MM dd HH:mm:ss') {
   const date = new Date(time)
   const o: Record<string, number> = {
     'M+': date.getMonth() + 1,
