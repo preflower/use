@@ -15,7 +15,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=!@preflower/react-use -r run build",
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only",

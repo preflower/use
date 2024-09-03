@@ -11,3 +11,5 @@ export * from './screen'
 export * from './object'
 
 export * from './define-map'
+
+export * from './typescript'
