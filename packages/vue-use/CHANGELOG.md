@@ -1,5 +1,13 @@
 # @preflower/vue-use
 
+## 1.1.2
+
+### Patch Changes
+
+- 6694ee4: Update typescript define, remove any type in some case
+- Updated dependencies [6694ee4]
+  - @preflower/utils@1.1.1
+
 ## 1.1.1
 
 ### Patch Changes
