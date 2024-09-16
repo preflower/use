@@ -36,6 +36,6 @@
     "@preflower/utils": "workspace:^"
   },
   "devDependencies": {
-    "vue": "^3.5.3"
+    "vue": "^3.5.5"
   }
 }
