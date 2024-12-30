@@ -28,7 +28,7 @@
     "eslint": "^9.17.0",
     "eslint-config-ted": "^4.0.8",
     "husky": "^9.1.7",
-    "lint-staged": "^15.2.11",
+    "lint-staged": "^15.3.0",
     "typescript": "^5.7.2"
   },
   "commitlint": {
