@@ -1,5 +1,11 @@
 # @preflower/vue-use
 
+## 1.2.0
+
+### Minor Changes
+
+- a67a846: add useScrollParent hooks
+
 ## 1.1.2
 
 ### Patch Changes
