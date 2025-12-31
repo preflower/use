@@ -4,5 +4,5 @@
  * @returns {any}
  */
 export function getArrayFirst<T> (arr: T): T extends unknown[] ? T[number] | undefined : T {
-  return Array.isArray(arr) ? arr[0] : arr
+  return (Array.isArray(arr) ? arr[0] : arr) as T extends unknown[] ? T[number] | undefined : T
 }

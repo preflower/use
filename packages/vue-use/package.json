@@ -20,7 +20,8 @@
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "scripts": {
     "build:cjs": "tsc",
