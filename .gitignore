@@ -27,3 +27,6 @@ dist-docs
 # changeset release
 .pnpm-store
 .npmrc
+
+# vitepress
+**/.vitepress/cache

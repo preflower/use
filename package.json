@@ -19,7 +19,10 @@
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=!@preflower/react-use -r run build",
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only && pnpm build",
-    "ci:publish": "pnpm build && pnpm changeset publish"
+    "ci:publish": "pnpm build && pnpm changeset publish",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
@@ -29,7 +32,8 @@
     "eslint-config-ted": "^4.0.9",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitepress": "^1.6.4"
   },
   "commitlint": {
     "extends": [
