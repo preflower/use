@@ -13,7 +13,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">🔢 Array</h3>
 <div class="method-grid">
-<a href="/packages/utils/array/get-array-first" class="method-card">
+<a href="/use/packages/utils/array/get-array-first" class="method-card">
 <div class="method-name">getArrayFirst</div>
 <p class="method-desc">Safely retrieve the first element of any array-like variable.</p>
 </a>
@@ -23,7 +23,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">📅 Date</h3>
 <div class="method-grid">
-<a href="/packages/utils/date/format" class="method-card">
+<a href="/use/packages/utils/date/format" class="method-card">
 <div class="method-name">format</div>
 <p class="method-desc">Ultra-lightweight date formatter with flexible templates.</p>
 </a>
@@ -34,7 +34,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">📱 Device</h3>
 <div class="method-grid">
-<a href="/packages/utils/device/is-ios" class="method-card">
+<a href="/use/packages/utils/device/is-ios" class="method-card">
 <div class="method-name">isIOS</div>
 <p class="method-desc">Reliable detection for Apple iOS environments and webviews.</p>
 </a>
@@ -44,7 +44,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">⚙️ Function</h3>
 <div class="method-grid">
-<a href="/packages/utils/function/idempotent" class="method-card">
+<a href="/use/packages/utils/function/idempotent" class="method-card">
 <div class="method-name">idempotent</div>
 <p class="method-desc">Ensure critical functions are only executed once in the lifecycle.</p>
 </a>
@@ -54,15 +54,15 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">📦 Object</h3>
 <div class="method-grid">
-<a href="/packages/utils/object/define-map" class="method-card">
+<a href="/use/packages/utils/object/define-map" class="method-card">
 <div class="method-name">defineMap</div>
 <p class="method-desc">Transform dictionaries into typed records or flattened arrays.</p>
 </a>
-<a href="/packages/utils/object/to-raw-type" class="method-card">
+<a href="/use/packages/utils/object/to-raw-type" class="method-card">
 <div class="method-name">toRawType</div>
 <p class="method-desc">Get the underlying JS [[Class]] type as a readable string.</p>
 </a>
-<a href="/packages/utils/object/pick" class="method-card">
+<a href="/use/packages/utils/object/pick" class="method-card">
 <div class="method-name">pick</div>
 <p class="method-desc">Create a new object by picking specific keys from another.</p>
 </a>
@@ -72,7 +72,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">🖥️ Screen</h3>
 <div class="method-grid">
-<a href="/packages/utils/screen/return-is-rotation-function" class="method-card">
+<a href="/use/packages/utils/screen/return-is-rotation-function" class="method-card">
 <div class="method-name">returnIsRotationFunction</div>
 <p class="method-desc">Stateful detector for identifying device orientation changes.</p>
 </a>
@@ -82,7 +82,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">💾 Storage</h3>
 <div class="method-grid">
-<a href="/packages/utils/storage/" class="method-card">
+<a href="/use/packages/utils/storage/" class="method-card">
 <div class="method-name">storage</div>
 <p class="method-desc">Type-safe JSON wrappers for localStorage and sessionStorage.</p>
 </a>
@@ -98,7 +98,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">⌨️ Keyboard</h3>
 <div class="method-grid">
-<a href="/packages/vue-use/use-keyboard-detector" class="method-card highlight-vue">
+<a href="/use/packages/vue-use/use-keyboard-detector" class="method-card highlight-vue">
 <div class="method-name">useKeyboardDetector</div>
 <p class="method-desc">Complete toolkit for virtual keyboard height and visibility tracking.</p>
 </a>
@@ -108,7 +108,7 @@ lastUpdated: false
 <div class="category-group">
 <h3 class="category-title">📜 Scroll</h3>
 <div class="method-grid">
-<a href="/packages/vue-use/use-scroll-parent" class="method-card highlight-vue">
+<a href="/use/packages/vue-use/use-scroll-parent" class="method-card highlight-vue">
 <div class="method-name">useScrollParent</div>
 <p class="method-desc">Find the nearest scrollable element for any dynamic DOM node.</p>
 </a>
