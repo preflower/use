@@ -1,6 +1,7 @@
 {
   "name": "@preflower/use-monorepo",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.10.0",
   "description": "A monorepo for self that save my work accumulation",
   "type": "module",
   "keywords": [],
