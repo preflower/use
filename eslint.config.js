@@ -1,10 +1,8 @@
-import { ted } from 'eslint-config-ted'
+import antfu from '@antfu/eslint-config'
 
-export default ted([
-  {
-    ignores: [
-      '**/esm/',
-      '**/lib/'
-    ]
-  }
-])
+export default antfu({
+  ignores: [
+    '**/esm/',
+    '**/lib/',
+  ],
+})

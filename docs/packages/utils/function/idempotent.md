@@ -7,7 +7,7 @@ Higher-order function that ensures the original function is only executed once. 
 ```typescript
 import { idempotent } from '@preflower/utils'
 
-const expensiveTask = (id: number) => {
+function expensiveTask(id: number) {
   console.log('Task executed for', id)
   return id * 2
 }

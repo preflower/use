@@ -30,7 +30,6 @@ lastUpdated: false
 </div>
 </div>
 
-
 <div class="category-group">
 <h3 class="category-title">📱 Device</h3>
 <div class="method-grid">

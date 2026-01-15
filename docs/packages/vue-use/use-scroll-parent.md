@@ -6,8 +6,8 @@ A Vue hook to find the nearest scrollable parent element.
 
 ```vue
 <script setup>
-import { ref } from 'vue'
 import { useScrollParent } from '@preflower/vue-use'
+import { ref } from 'vue'
 
 const el = ref(null)
 const scrollParent = useScrollParent(el)

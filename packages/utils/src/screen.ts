@@ -3,7 +3,7 @@
  * 通过闭包保存最新的屏幕值
  * @returns () => boolean
  */
-export function returnIsRotationFunction () {
+export function returnIsRotationFunction() {
   let w = window.screen.width
   let h = window.screen.height
 

@@ -1,15 +1,16 @@
 class EasyStorage {
   storage: Storage
 
-  constructor (storage: 'local' | 'session') {
+  constructor(storage: 'local' | 'session') {
     if (storage === 'session') {
       this.storage = window.sessionStorage
-    } else {
+    }
+    else {
       this.storage = window.localStorage
     }
   }
 
-  get<T> (key: string): T | null {
+  get<T>(key: string): T | null {
     const value = this.storage.getItem(key)
 
     if (typeof value !== 'string') {
@@ -18,26 +19,27 @@ class EasyStorage {
 
     try {
       return JSON.parse(value)
-    } catch {
+    }
+    catch {
       return value as T
     }
   }
 
-  set<T> (key: string, value: T) {
+  set<T>(key: string, value: T) {
     const str = JSON.stringify(value)
     this.storage.setItem(key, str)
   }
 
-  remove (key: string) {
+  remove(key: string) {
     this.storage.removeItem(key)
   }
 
-  clear () {
+  clear() {
     this.storage.clear()
   }
 }
 
 export const storage = {
   local: new EasyStorage('local'),
-  session: new EasyStorage('session')
+  session: new EasyStorage('session'),
 }

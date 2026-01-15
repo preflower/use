@@ -13,7 +13,7 @@ import { storage } from '@preflower/utils'
 
 // localStorage
 storage.local.set('user', { id: 1, name: 'Alice' })
-const user = storage.local.get<{ id: number; name: string }>('user')
+const user = storage.local.get<{ id: number, name: string }>('user')
 storage.local.remove('user')
 storage.local.clear()
 

@@ -1,7 +1,8 @@
-import { ref, Ref, onBeforeUnmount } from 'vue'
+import type { Ref } from 'vue'
 import { returnIsRotationFunction } from '@preflower/utils'
+import { onBeforeUnmount, ref } from 'vue'
 
-export const useKeyboardDetector = (): [Ref<boolean | undefined>, Ref<number>] => {
+export function useKeyboardDetector(): [Ref<boolean | undefined>, Ref<number>] {
   let initialHeight = document.documentElement.clientHeight
 
   const isOpened = ref<boolean>()
@@ -34,7 +35,8 @@ export const useKeyboardDetector = (): [Ref<boolean | undefined>, Ref<number>] =
     if (Math.abs(initialHeight - height) > 50) {
       isOpened.value = true
       keyboardHeight.value = initialHeight - height
-    } else {
+    }
+    else {
       isOpened.value = false
       keyboardHeight.value = 0
     }

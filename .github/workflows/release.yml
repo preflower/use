@@ -5,7 +5,7 @@ on:
       - master
     paths:
       - '.changeset/**'
-      - '.github/workflows/release.yml'
+      - .github/workflows/release.yml
   workflow_dispatch:
 permissions:
   contents: write
@@ -38,8 +38,8 @@ jobs:
         uses: changesets/action@v1
         with:
           version: pnpm ci:version
-          commit: "chore: update versions"
-          title: "chore: update versions"
+          commit: 'chore: update versions'
+          title: 'chore: update versions'
           publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

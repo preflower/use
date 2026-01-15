@@ -2,21 +2,21 @@
   "name": "@preflower/utils",
   "version": "1.1.1",
   "description": "A utils for self",
-  "keywords": [],
+  "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
   "license": "ISC",
   "homepage": "https://github.com/preflower/use#readme",
+  "repository": "https://github.com/preflower/use",
   "bugs": {
     "url": "https://github.com/preflower/use/issues"
   },
-  "repository": "https://github.com/preflower/use",
-  "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
+  "keywords": [],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "esm/",
     "lib/"
   ],
-  "main": "lib/index.js",
-  "module": "esm/index.js",
-  "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
   "publishConfig": {
     "access": "public",

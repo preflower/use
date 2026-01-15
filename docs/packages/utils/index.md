@@ -16,7 +16,6 @@ pnpm add @preflower/utils
 ### Date
 - [format](./date/format): Lightweight date formatting without dependencies.
 
-
 ### Device
 - [isIOS](./device/is-ios): Detect if the device is iOS.
 

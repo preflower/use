@@ -1,15 +1,15 @@
-export { storage } from './storage'
+export * from './array'
 
-export * from './function'
+export * from './define-map'
 
 export * from './device'
 
-export * from './array'
-
-export * from './screen'
+export * from './function'
 
 export * from './object'
 
-export * from './define-map'
+export * from './screen'
+
+export { storage } from './storage'
 
 export * from './typescript'

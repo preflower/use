@@ -5,7 +5,7 @@ on:
     branches: [master]
     paths:
       - 'docs/**'
-      - '.github/workflows/deploy-docs.yml'
+      - .github/workflows/deploy-docs.yml
 
   workflow_dispatch:
 
@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 24.12.0
-          cache: 'pnpm'
+          cache: pnpm
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies

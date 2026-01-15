@@ -17,15 +17,15 @@ const userList = [
 ]
 
 // 1. Get an array of specific keys
-const ids = defineMap(userList, 'id') 
+const ids = defineMap(userList, 'id')
 // [1, 2]
 
 // 2. Map keyed by ID to a specific property
-const nameMap = defineMap(userList, 'id', 'name') 
+const nameMap = defineMap(userList, 'id', 'name')
 // { 1: 'Alice', 2: 'Bob' }
 
 // 3. Map keyed by ID to multiple properties (Pick)
-const detailMap = defineMap(userList, 'id', ['name', 'age']) 
+const detailMap = defineMap(userList, 'id', ['name', 'age'])
 // { 1: { name: 'Alice', age: 25 }, 2: { name: 'Bob', age: 30 } }
 ```
 

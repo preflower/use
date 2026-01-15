@@ -15,8 +15,8 @@ const [isOpened, keyboardHeight] = useKeyboardDetector()
   <div class="container">
     <p>Keyboard is open: {{ isOpened }}</p>
     <p>Keyboard height: {{ keyboardHeight }}px</p>
-    
-    <input type="text" placeholder="Focus me to open keyboard" />
+
+    <input type="text" placeholder="Focus me to open keyboard">
   </div>
 </template>
 ```

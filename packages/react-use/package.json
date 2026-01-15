@@ -2,21 +2,21 @@
   "name": "@preflower/react-use",
   "version": "1.0.0",
   "description": "A vue hooks library for self",
-  "keywords": [],
+  "author": "",
   "license": "ISC",
   "homepage": "https://github.com/preflower/use#readme",
+  "repository": "https://github.com/preflower/use",
   "bugs": {
     "url": "https://github.com/preflower/use/issues"
   },
-  "repository": "https://github.com/preflower/use",
-  "author": "",
+  "keywords": [],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "esm/",
     "lib/"
   ],
-  "main": "lib/index.js",
-  "module": "esm/index.js",
-  "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
   "publishConfig": {
     "access": "public"
