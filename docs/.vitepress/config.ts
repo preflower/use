@@ -32,6 +32,7 @@ export default defineConfig({
           text: 'Device',
           items: [
             { text: 'isIOS', link: '/packages/utils/device/is-ios' },
+            { text: 'isClient', link: '/packages/utils/device/is-client' },
           ],
         },
         {
