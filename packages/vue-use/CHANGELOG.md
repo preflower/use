@@ -1,5 +1,13 @@
 # @preflower/vue-use
 
+## 1.2.1
+
+### Patch Changes
+
+- 322483a: Add SSR support
+- Updated dependencies [322483a]
+  - @preflower/utils@1.2.0
+
 ## 1.2.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @preflower/utils
 
+## 1.2.0
+
+### Minor Changes
+
+- 322483a: Add SSR support
+
 ## 1.1.1
 
 ### Patch Changes
