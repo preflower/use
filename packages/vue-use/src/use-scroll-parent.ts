@@ -1,10 +1,11 @@
 import type { Ref } from 'vue'
+import { isClient } from '@preflower/utils'
 import { ref, watch } from 'vue'
 
 type ScrollElement = HTMLElement | SVGElement | Window | Document
 
 const overflowScrollReg = /scroll|auto|overlay/i
-const defaultRoot = window
+const defaultRoot = isClient ? window : undefined
 
 function isElement(node: Node): node is Element {
   return (
