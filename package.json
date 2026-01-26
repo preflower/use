@@ -2,7 +2,7 @@
   "name": "@preflower/use-monorepo",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.28.0",
+  "packageManager": "pnpm@10.28.1",
   "description": "A monorepo for self that save my work accumulation",
   "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
   "license": "ISC",
