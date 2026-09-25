@@ -26,7 +26,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.7.3",
+    "@antfu/eslint-config": "^9.5.1",
     "@changesets/cli": "^2.31.1",
     "@commitlint/cli": "^20.5.3",
     "@commitlint/config-conventional": "^20.5.3",
